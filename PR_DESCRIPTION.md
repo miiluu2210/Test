@@ -30,21 +30,6 @@ Complete data transformation pipeline for processing cart events with Docker int
 - **DOCKER_GUIDE.md**: Docker patterns and use cases
 - **WHEN_TO_USE_DOCKER.md**: Decision flowchart
 
-## 📊 Performance Benchmarks
-
-### 2 Million Events
-| Method | Time | Memory | Workers |
-|--------|------|--------|---------|
-| Python Single | 3-5 min | 500MB | 1 |
-| Docker Single | 3-5 min | 600MB | 1 |
-| Docker Workers | 1-2 min | 2.4GB | 4 |
-
-### 10 Million Events
-| Method | Time | Memory | Workers |
-|--------|------|--------|---------|
-| Python Single | 15-20 min | 600MB | 1 |
-| Docker Workers (8) | 4-5 min | 4.8GB | 8 |
-
 ## 🚀 Key Capabilities
 
 **Can Process:**
@@ -63,8 +48,6 @@ Complete data transformation pipeline for processing cart events with Docker int
 - Parallel processing with Docker workers
 - Redis-based job queue
 - Auto-scaling ready
-
-## 📝 What Changed
 
 ### New Files (21 files)
 **Transformation Scripts:**
